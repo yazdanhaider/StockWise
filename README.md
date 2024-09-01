@@ -1,16 +1,105 @@
-# new_stock
+# StockWise
 
-A new Flutter project.
+StockWise is a Flutter application designed to provide real-time stock quotes, manage a watchlist, and visualize historical stock price data. The app integrates with the Twelve Data API to deliver accurate financial information and includes an intuitive UI with a modern design.
+
+## Features
+
+- **Stock Quote Display**: View current stock prices, company names, and price changes.
+- **Watchlist**: Add and remove stocks for quick access.
+- **Historical Data Visualization**: Analyze historical stock price movements with charts.
+- **Onboarding Screens**: Guide new users through the app with a smooth onboarding experience.
+
+## Screenshots
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter SDK](https://flutter.dev/docs/get-started/install) installed on your machine.
+- A valid API key from [Twelve Data API](https://twelvedata.com/).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the Repository:**
+
+    ```bash
+    git clone https://github.com/yourusername/stockwise.git
+    cd stockwise
+    ```
+
+2. **Install Dependencies:**
+
+    ```bash
+    flutter pub get
+    ```
+
+3. **Configure API Key:**
+
+    - Replace `YOUR_API_KEY` in `lib/services/api_service.dart` with your actual Twelve Data API key.
+
+4. **Run the App:**
+
+    ```bash
+    flutter run
+    ```
+
+## Usage
+
+- **Onboarding Screen**: The onboarding screen introduces users to the app’s features. Once completed, users will be directed to the main screen.
+- **Main Screen**: Navigate between the Home and Wishlist screens using the bottom navigation bar.
+- **Search Stocks**: Use the search feature to find and view stock information.
+- **Add to Watchlist**: Add stocks to your watchlist for easy access.
+- **View Historical Data**: Access detailed charts to view historical stock data.
+
+## Code Structure
+
+- `lib/`: Contains the main codebase.
+  - `models/`: Data models for stock information.
+  - `screens/`: UI screens for different parts of the app.
+  - `services/`: API services and data fetching logic.
+  - `onboarding_screen.dart`: Onboarding screen implementation.
+  - `main.dart`: Entry point of the application.
+
+## Dependencies
+
+- `flutter`: The Flutter SDK.
+- `cupertino_icons`: For iOS styled icons.
+- `provider`: State management package.
+- `http`: For making HTTP requests.
+- `syncfusion_flutter_charts`: For charting historical data.
+- `fl_chart`: For displaying line charts.
+- `shared_preferences`: For local storage of user preferences.
+- `flutter_launcher_icons`: For customizing app icons.
+
+## Development
+
+### Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. **Fork the Repository**.
+2. **Create a Feature Branch**: `git checkout -b feature/new-feature`
+3. **Commit Your Changes**: `git commit -am 'Add new feature'`
+4. **Push to the Branch**: `git push origin feature/new-feature`
+5. **Create a New Pull Request**.
+
+### Code Style
+
+- Use `dartfmt` to format your code.
+- Follow the Dart and Flutter style guides.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- Thanks to the [Twelve Data API](https://twelvedata.com/) for providing the financial data.
+- Special thanks to the Flutter community for their support and resources.
+
+---
+
+Feel free to modify and expand this `README.md` file based on any additional details or changes in your project.
+
+<h3 align="center">Made by <a href="https://github.com/yazdanhaider">@yazdanhaider🇮🇳</a></h3>
+
