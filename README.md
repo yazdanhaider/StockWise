@@ -10,6 +10,9 @@ StockWise is a Flutter application designed to provide real-time stock quotes, m
 - **Onboarding Screens**: Guide new users through the app with a smooth onboarding experience.
 
 ## Screenshots
+![1](https://github.com/user-attachments/assets/60a258ce-9de8-476f-9ffa-095ab6e9f988)
+![2](https://github.com/user-attachments/assets/dacc56b9-74e3-4dd4-b785-78081bb90ec3)
+![Gray Peach Purple Green Modern Product Launch Plan Presentation](https://github.com/user-attachments/assets/7824f736-b985-45c8-a8a3-7c8bee946f22)
 
 ## Getting Started
 
