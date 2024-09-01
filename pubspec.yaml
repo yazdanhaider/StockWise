@@ -1,0 +1,49 @@
+name: StockWise
+description: "StockWise a stock quote app"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.2
+  http: ^1.2.2
+  syncfusion_flutter_charts: ^26.2.11
+  fl_chart: ^0.65.0
+  shared_preferences: ^2.3.2
+  smooth_page_indicator: ^1.1.0
+  lottie: ^2.7.0
+  liquid_swipe: ^3.1.0
+  dots_indicator: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: "^0.10.0"
+
+flutter:
+  uses-material-design: true
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/stockwise.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/icons/stockwise.png"
+    background_color: #ffffff
+    theme_color: #ffffff
+  windows:
+    generate: true
+    image_path: "assets/icons/stockwise.png"
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "assets/icons/stockwise.png"
