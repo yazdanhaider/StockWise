@@ -1,3 +1,7 @@
+<div align="center">
+<img src="https://readme-typing-svg.herokuapp.com?color=9370DB&size=50&width=600&height=80&lines=Welcome-to-StockWise"/>
+</div>
+
 # StockWise
 
 StockWise is a Flutter application designed to provide real-time stock quotes, manage a watchlist, and visualize historical stock price data. The app integrates with the Twelve Data API to deliver accurate financial information and includes an intuitive UI with a modern design.
